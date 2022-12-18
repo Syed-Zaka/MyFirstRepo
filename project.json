@@ -1,0 +1,7 @@
+{
+  "title": "Online Demo",
+  "description": "A Demo project showcasing a number of Ignition\u0027s features: realtime status \u0026 control, historical trending, UDTs \u0026 templates, reporting, alarming, security, and more.",
+  "parent": "global",
+  "enabled": true,
+  "inheritable": false
+}

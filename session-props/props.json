@@ -1,0 +1,168 @@
+{
+  "custom": {
+    "attendeeID": "0",
+    "badges": {
+      "colors": {
+        "black": "#0A1612",
+        "gold": "#F7CE3E",
+        "midnight": "#1A2930",
+        "silver": "#C5C1C0"
+      }
+    },
+    "historyFilter": {
+      "config": {
+        "calc": "",
+        "date": {
+          "mostRecent": {
+            "duration": 2,
+            "units": "hour"
+          },
+          "range": {
+            "end": null,
+            "start": null
+          }
+        },
+        "interval": {
+          "duration": 1,
+          "units": "min"
+        },
+        "mode": "realtime"
+      },
+      "cursor": false,
+      "tagPaths": [
+        {
+          "alias": "tank1",
+          "enabled": true,
+          "friendly": "Tank 1",
+          "path": "[default]hmi/tank1"
+        },
+        {
+          "alias": "tank2",
+          "enabled": true,
+          "friendly": "Tank 2",
+          "path": "[default]hmi/tank2"
+        },
+        {
+          "alias": "daytank",
+          "enabled": true,
+          "friendly": "Day Tank",
+          "path": "[default]hmi/daytank"
+        },
+        {
+          "alias": "temp",
+          "enabled": true,
+          "friendly": "Temperature",
+          "path": "[default]hmi/ambientTemp"
+        },
+        {
+          "alias": "humidity",
+          "enabled": true,
+          "friendly": "Humidity",
+          "path": "[default]hmi/ambientHum"
+        }
+      ]
+    },
+    "hmi": {
+      "alarmColors": [
+        "rgba(120,150,150,1)",
+        "rgba(255,255,0,1)",
+        "rgba(255,128,0,1)",
+        "rgba(255,0,0,1)"
+      ],
+      "background": "rgba(250,250,250,1)",
+      "borderColor": "rgba(120,150,150,1)",
+      "colors": [
+        "rgba(150,150,150,1)",
+        "rgba(100,255,100,1)",
+        "rgba(255,230,0,1)",
+        "rgba(255,0,0,1)"
+      ],
+      "colorsSingleValue": [
+        "rgba(255,255,255,1)",
+        "rgba(100,255,100,1)",
+        "rgba(255,230,0,1)",
+        "rgba(255,0,0,1)"
+      ],
+      "fontSize": "0.75em",
+      "headerBackground": "rgba(200,200,200,1)",
+      "hoaBorders": [
+        "rgba(0, 0, 0, 1)",
+        "rgba(0, 0, 0, 1)",
+        "rgba(200, 200, 0, 1)",
+        "rgba(255, 0, 0, 1)"
+      ],
+      "pipeColor": "rgba(140,140,140,1)",
+      "secondaryBackground": "rgba(230,230,230,1)",
+      "window": "Dashboard"
+    },
+    "maps": {
+      "id": 0,
+      "tab": 0
+    },
+    "news": {
+      "index": 0
+    }
+  },
+  "propConfig": {
+    "custom.attendeeID": {
+      "persistent": true
+    },
+    "custom.badges": {
+      "persistent": true
+    },
+    "custom.maps": {
+      "persistent": true
+    },
+    "custom.maps.id": {
+      "persistent": true
+    },
+    "custom.maps.tab": {
+      "persistent": true
+    },
+    "custom.news.index": {
+      "persistent": true
+    },
+    "props.device.barcodes": {
+      "onChange": {
+        "enabled": null,
+        "script": "\t#system.util.getLogger(\"codes\").info(\"New Code Scanned\")\n\tpass"
+      }
+    },
+    "props.geolocation.enabled": {
+      "persistent": false
+    }
+  },
+  "props": {
+    "auth": {
+      "authenticated": true
+    },
+    "browserLocale": "en-US",
+    "device": {
+      "barcodes": [],
+      "images": [],
+      "timezone": {
+        "id": "America/Los_Angeles",
+        "utcOffset": -7
+      },
+      "type": "designer",
+      "userAgent": "\u003cdesigner\u003e"
+    },
+    "gateway": {
+      "address": "10.20.5.109",
+      "timezone": {
+        "id": "America/Los_Angeles",
+        "name": "Pacific Standard Time",
+        "utcOffset": -8
+      }
+    },
+    "gatewayLocale": "en-US",
+    "gatewayTime": "2018-09-05T02:57:20.163Z",
+    "geolocation": {},
+    "id": "90dcd74e-8140-4c6e-bb6d-c96de0f353e6",
+    "locale": "en-US",
+    "remoteHost": "kmcclusky-ws2",
+    "securityLevels": [],
+    "timeZoneId": "America/Los_Angeles",
+    "timeZoneName": "Coordinated Universal Time"
+  }
+}
